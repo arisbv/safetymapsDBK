@@ -6,7 +6,7 @@ cat js/libs/jquery-1.10.2.min.js \
     js/libs/jquery.ui.touch-punch.js \
     js/libs/proj4js-compressed.js \
     js/libs/OpenLayers-2.12.min.js \
-    submodules/bootstrap/dist/js/bootstrap.js \
+    js/libs/bootstrap.min.js \
     js/libs/typeahead.min.js \
     js/libs/moment.min.js \
     js/libs/lang/nl.js \
@@ -36,7 +36,7 @@ cat js/libs/jquery-1.10.2.min.js \
     js/dbkjs/modules/measure.js \
     js/dbkjs/dbkjs.js | node_modules/uglify-js/bin/uglifyjs -o js/dbk.min.js
 cat css/dbk.css \
-    submodules/bootstrap/dist/css/bootstrap.min.css \
-    submodules/Font-Awesome/css/font-awesome.min.css \
+    css/bootstrap.min.css \
+    css/font-awesome.min.css \
     css/daterangepicker-bs3.css \
     css/typeahead.js-bootstrap.css | node node_modules/clean-css/bin/cleancss -o css/dbk.min.css
