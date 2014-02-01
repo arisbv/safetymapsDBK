@@ -181,7 +181,7 @@ dbkjs.init = function() {
                         data.regio.gebied.zoom
                         );
             }
-            if (dbkjs.options.regio.titel){
+            if (dbkjs.options.regio.titel) {
                 document.title = dbkjs.options.regio.titel;
             }
             dbkjs.challengeAuth();

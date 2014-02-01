@@ -158,6 +158,7 @@ body {
 }
 #search_input {
     background-color: #ffffff !important;
+    max-width: 180px !important;
 }
 .dialog{
     z-index: 300;
