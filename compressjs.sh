@@ -3,7 +3,6 @@ cat js/libs/jquery-1.10.2.min.js \
     js/libs/jquery.drags.js \
     js/libs/jquery.sortable.js \
     js/libs/jquery.xml2json.js \
-    js/libs/jquery.ui.touch-punch.js \
     js/libs/proj4js-compressed.js \
     js/libs/OpenLayers.dbk.js \
     js/libs/bootstrap.min.js \
